@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f093fb;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur2"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur2"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#grad)" />
+
+  <!-- Animated particles -->
+  <g id="particles">
+    <circle cx="100" cy="80" r="2" fill="white" opacity="0.6">
+      <animate attributeName="cy" values="80;70;80" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="r" values="2;3;2" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="200" r="1.5" fill="white" opacity="0.4">
+      <animate attributeName="cy" values="200;210;200" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="120" r="2.5" fill="white" opacity="0.5">
+      <animate attributeName="cy" values="120;110;120" dur="3.5s" repeatCount="indefinite" />
+      <animate attributeName="r" values="2.5;3.5;2.5" dur="3.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="450" cy="60" r="1" fill="white" opacity="0.7">
+      <animate attributeName="cy" values="60;55;60" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="600" cy="250" r="2" fill="white" opacity="0.5">
+      <animate attributeName="cy" values="250;240;250" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="750" cy="100" r="1.5" fill="white" opacity="0.6">
+      <animate attributeName="cy" values="100;90;100" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="900" cy="180" r="2" fill="white" opacity="0.4">
+      <animate attributeName="cy" values="180;170;180" dur="3.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1000" cy="40" r="1" fill="white" opacity="0.8">
+      <animate attributeName="cy" values="40;35;40" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1100" cy="220" r="1.5" fill="white" opacity="0.5">
+      <animate attributeName="cy" values="220;215;220" dur="3.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Main title with glow -->
+  <text x="600" y="120" text-anchor="middle" font-family="monospace" font-size="48" font-weight="bold" fill="white" filter="url(#glow)">
+    Ultra Skills
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="170" text-anchor="middle" font-family="monospace" font-size="20" fill="white" opacity="0.95">
+    1000+ AI Skills for Claude Code &amp; Beyond
+  </text>
+
+  <!-- Animated line drawing -->
+  <path d="M200,210 L1000,210" stroke="white" stroke-width="2" stroke-linecap="round" stroke-dasharray="800" stroke-dashoffset="800" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" values="800;0" dur="2s" fill="freeze" begin="0.5s" />
+  </path>
+
+  <!-- Dots on the line -->
+  <circle cx="400" cy="210" r="0" fill="white">
+    <animate attributeName="r" values="0;4;0" dur="1.5s" repeatCount="indefinite" begin="1s" />
+  </circle>
+  <circle cx="600" cy="210" r="0" fill="white">
+    <animate attributeName="r" values="0;4;0" dur="1.5s" repeatCount="indefinite" begin="1.5s" />
+  </circle>
+  <circle cx="800" cy="210" r="0" fill="white">
+    <animate attributeName="r" values="0;4;0" dur="1.5s" repeatCount="indefinite" begin="2s" />
+  </circle>
+
+  <!-- Bottom tagline with fade in -->
+  <text x="600" y="270" text-anchor="middle" font-family="sans-serif" font-size="16" fill="white" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze" begin="1.5s" />
+    npx ultra-skills
+  </text>
+</svg>

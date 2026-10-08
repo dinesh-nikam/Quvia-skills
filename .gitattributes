@@ -1,0 +1,78 @@
+# Ultra Skills - Git Attributes
+# =============================
+
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Markdown and text files
+*.md text eol=lf
+*.markdown text eol=lf
+*.mdown text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# JavaScript/TypeScript
+*.js text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+
+# Python
+*.py text eol=lf
+
+# Shell scripts
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# YAML
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# TOML
+*.toml text eol=lf
+
+# CSS
+*.css text eol=lf
+
+# HTML
+*.html text eol=lf
+
+# SVG - treat as text for diff
+*.svg text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.tar binary
+*.tgz binary
+*.bz2 binary
+*.7z binary
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# Documents
+*.docx binary merge=binary
+*.xlsx binary merge=binary
+*.pptx binary merge=binary
+
+# Diff drivers
+*.lock diff=txt merge=binary
+LICENSE diff=txt merge=binary
+.gitignore diff=txt
+.gitattributes diff=txt
+
+# Character encoding for non-ASCII text files
+*.md working-tree-encoding=UTF-8 git-encoding=UTF-8
+*.js working-tree-encoding=UTF-8 git-encoding=UTF-8

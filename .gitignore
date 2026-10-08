@@ -1,0 +1,188 @@
+# Ultra Skills - Git Ignore
+# ========================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+package-lock.json
+yarn.lock
+yarn-err.log*
+bun.lockb
+bun.lock
+
+# Dependencies
+*.tgz
+*.tar.gz
+dist/
+build/
+out/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+# JetBrains
+.idea/
+*.iml
+# Vim
+*.swp
+*.swo
+*.swn
+# Emacs
+*~
+\#*\#
+.#*
+# Nano
+*.save
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local-only: disabled skills for lean configuration
+.disabled/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+logs/
+.tmp/
+.tmp/**
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# Testing
+coverage/
+.nyc_output/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.venv/
+.venv*/
+venv/
+venv*/
+
+# Build outputs
+*.zip
+*.tar
+*.gz
+*.jar
+*.war
+*.class
+target/
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+
+# IDE debugging
+*.pdb
+*.dbt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+eggs/
+sdist/
+.installed.cfg
+*.egg
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/.rspec_status
+/peco_jr
+/bundle
+/cookiebrother
+
+# Go
+bin/
+vendor/
+
+# Rust
+Cargo.lock
+target/
+Cargo.lock
+
+# Java / Maven / Gradle
+*.class
+*.jar
+*.war
+*.nar
+*.tgz
+*.zip
+mvnw
+.mvn/
+.gradlew
+.gradle/
+build/
+out/
+
+# Docker
+.dockerignore
+Dockerfile*
+
+# CI/CD
+.github/
+.vscode/settings.json
+.gitlab/
+
+# EditorConfig
+.editorconfig
+
+# Project-specific
+*.prof
+*.profraw
+*.profdata
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temp
+*.swp
+*~

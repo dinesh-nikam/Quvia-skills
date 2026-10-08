@@ -1,0 +1,44 @@
+{
+  "name": "ultra-skills",
+  "version": "1.0.0",
+  "description": "1000+ specialized AI skills for Claude Code, Cursor, Aider, OpenCode, and other AI coding assistants",
+  "keywords": [
+    "ai",
+    "skills",
+    "claude-code",
+    "cursor",
+    "aider",
+    "claude",
+    "ai-assistant",
+    "prompts",
+    "agents",
+    "developer-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultra-skills/ultra-skills"
+  },
+  "homepage": "https://github.com/ultra-skills/ultra-skills#readme",
+  "bugs": {
+    "url": "https://github.com/ultra-skills/ultra-skills/issues"
+  },
+  "license": "MIT",
+  "bin": {
+    "ultra-skills": "bin/install.js"
+  },
+  "main": "bin/install.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "docs/",
+    "assets/",
+    "LICENSE",
+    "README.md",
+    "CONTRIBUTING.md",
+    "*"
+  ],
+  "author": "",
+  "contributors": []
+}
