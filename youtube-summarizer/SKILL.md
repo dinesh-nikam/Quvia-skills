@@ -407,5 +407,5 @@ Welcome to this comprehensive tutorial on machine learning fundamentals. In toda
 
 **Version:** 1.2.0
 **Last Updated:** 2026-02-02
-**Maintained By:** Eric Andrade
+**Maintained By:** Ultra Skills Contributors
 

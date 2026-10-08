@@ -65,4 +65,4 @@ If the agent is stuck or behaving unexpectedly:
 
 ## Reference
 
-Based on [Claude Code Guide by zebbern](https://github.com/zebbern/claude-code-guide).
+Based on [Claude Code Guide](https://github.com/zebbern/claude-code-guide).

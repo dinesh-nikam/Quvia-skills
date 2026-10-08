@@ -119,7 +119,7 @@ resp = requests.get(
     "https://api.x.com/2/tweets/search/recent",
     headers=headers,
     params={
-        "query": "from:affaanmustafa -is:retweet",
+        "query": "from:target_user -is:retweet",
         "max_results": 10,
         "tweet.fields": "public_metrics,created_at",
     }
@@ -130,7 +130,7 @@ resp = requests.get(
 
 ```python
 resp = requests.get(
-    "https://api.x.com/2/users/by/username/affaanmustafa",
+    "https://api.x.com/2/users/by/username/target_user",
     headers=headers,
     params={"user.fields": "public_metrics,description,created_at"}
 )

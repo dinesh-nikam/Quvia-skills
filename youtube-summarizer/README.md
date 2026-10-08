@@ -181,7 +181,7 @@ Every summary follows this comprehensive structure:
 
 - **Python 3.x** (usually pre-installed on macOS/Linux)
 - **pip** (Python package manager)
-- **[youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)** by [Julien Depoix](https://github.com/jdepoix) (installed automatically by the skill)
+- **[youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)** (installed automatically by the skill)
 
 ### Manual Installation (Optional)
 
@@ -355,11 +355,11 @@ MIT License - see [LICENSE](../../../LICENSE) for details.
 
 ## Acknowledgments
 
-- **[youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)** by [Julien Depoix](https://github.com/jdepoix) - Python library for extracting YouTube video transcripts
+- **[youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)** - Python library for extracting YouTube video transcripts
 - **Anthropic STAR/R-I-S-E frameworks** - For structured summarization
 
 ---
 
-**Built with ❤️ by Eric Andrade**
+**Maintained by Ultra Skills Contributors**
 
 *Version 1.1.0 | Last updated: February 2026*
