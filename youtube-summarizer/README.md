@@ -360,6 +360,6 @@ MIT License - see [LICENSE](../../../LICENSE) for details.
 
 ---
 
-**Maintained by Ultra Skills Contributors**
+**Maintained by Quvia Skills Contributors**
 
 *Version 1.1.0 | Last updated: February 2026*

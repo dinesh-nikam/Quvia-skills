@@ -1,4 +1,4 @@
-﻿---
+---
 name: youtube-summarizer
 description: "Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks"
 version: 1.2.1
@@ -407,5 +407,5 @@ Welcome to this comprehensive tutorial on machine learning fundamentals. In toda
 
 **Version:** 1.2.0
 **Last Updated:** 2026-02-02
-**Maintained By:** Ultra Skills Contributors
+**Maintained By:** Quvia Skills Contributors
 

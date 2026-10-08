@@ -1,14 +1,14 @@
-# <p align="center"><img src="assets/banner.svg" alt="Ultra Skills Banner" width="100%" /></p>
+# <p align="center"><img src="assets/banner.svg" alt="Quvia Skills Banner" width="100%" /></p>
 
 <p align="center">
-  <a href="https://github.com/ultra-skills/ultra-skills">
-    <img src="https://img.shields.io/badge/Ultra%20Skills-1000%2B%20Skills-brightgreen?style=for-the-badge&labelColor=667eea&color=764ba2" alt="Skills Count" />
+  <a href="https://github.com/quvia-skills/quvia-skills">
+    <img src="https://img.shields.io/badge/Quvia%20Skills-1000%2B%20Skills-brightgreen?style=for-the-badge&labelColor=667eea&color=764ba2" alt="Skills Count" />
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=667eea&color=764ba2" alt="License" />
   </a>
-  <a href="https://github.com/ultra-skills/ultra-skills/stargazers">
-    <img src="https://img.shields.io/github/stars/ultra-skills/ultra-skills?style=for-the-badge&labelColor=667eea&color=764ba2" alt="Stars" />
+  <a href="https://github.com/quvia-skills/quvia-skills/stargazers">
+    <img src="https://img.shields.io/github/stars/quvia-skills/quvia-skills?style=for-the-badge&labelColor=667eea&color=764ba2" alt="Stars" />
   </a>
   <img src="https://img.shields.io/badge/Supports-Claude%20Code%20%7C%20Cursor%20%7C%20Aider%20%7C%20OpenCode-brightgreen?style=for-the-badge&labelColor=667eea&color=764ba2" alt="Supported Platforms" />
 </p>
@@ -18,16 +18,16 @@
 ## 🚀 One-Line Install
 
 ```bash
-npx ultra-skills
+npx quvia-skills
 ```
 
-That's it. This command installs the entire Ultra Skills collection directly into your AI assistant's skills directory — no clone, no manual setup, no config files to edit.
+That's it. This command installs the entire Quvia Skills collection directly into your AI assistant's skills directory — no clone, no manual setup, no config files to edit.
 
 ---
 
-## 🎯 What Are Ultra Skills?
+## 🎯 What Are Quvia Skills?
 
-Ultra Skills is the world's largest curated collection of **1000+ specialized AI skills** designed to supercharge your AI coding assistant. Each skill is a focused instruction set that transforms your AI into a domain expert on demand.
+Quvia Skills is the world's largest curated collection of **1000+ specialized AI skills** designed to supercharge your AI coding assistant. Each skill is a focused instruction set that transforms your AI into a domain expert on demand.
 
 **Think of it as a Swiss Army knife for AI coding assistants** — whether you're doing security audits, architecture reviews, UI design, database optimization, or full-stack development, there's a skill ready to activate.
 
@@ -38,7 +38,7 @@ Ultra Skills is the world's largest curated collection of **1000+ specialized AI
 | Feature | Description |
 |---|---|
 | **1000+ Skills** | Comprehensive coverage across 50+ domains |
-| **One-Command Install** | `npx ultra-skills` sets up everything instantly |
+| **One-Command Install** | `npx quvia-skills` sets up everything instantly |
 | **Multi-Assistant Support** | Works with Claude Code, Cursor, Aider, OpenCode, and more |
 | **Zero Dependencies** | No global installs, no npm packages required |
 | **Always Fresh** | Skills auto-update when you run the installer |
@@ -49,7 +49,7 @@ Ultra Skills is the world's largest curated collection of **1000+ specialized AI
 ## 📂 Repository Structure
 
 ```
-ultra-skills/
+quvia-skills/
 ├── assets/                        # Static assets (animations, images)
 │   └── banner.svg                 # Animated banner
 ├── docs/                          # Project-level documentation
@@ -77,27 +77,27 @@ ultra-skills/
 ### Install All Skills
 
 ```bash
-npx ultra-skills
+npx quvia-skills
 ```
 
 ### Install a Single Skill
 
 ```bash
-npx ultra-skills --skill api-design
+npx quvia-skills --skill api-design
 ```
 
 ### Install Specific Categories
 
 ```bash
-npx ultra-skills --category backend
-npx ultra-skills --category frontend
-npx ultra-skills --category security
+npx quvia-skills --category backend
+npx quvia-skills --category frontend
+npx quvia-skills --category security
 ```
 
 ### Update Existing Skills
 
 ```bash
-npx ultra-skills --update
+npx quvia-skills --update
 ```
 
 ---
@@ -148,7 +148,7 @@ Strategic planning, project management, and workflow optimization skills.
 
 ## 📖 How It Works
 
-1. **Install** — Run `npx ultra-skills` to install skills into your assistant's directory
+1. **Install** — Run `npx quvia-skills` to install skills into your assistant's directory
 2. **Invoke** — Use `@skill-name` in your chat to activate a specific skill
 3. **Collaborate** — Your AI assistant loads the skill and becomes an expert in that domain
 
@@ -190,9 +190,9 @@ Read our [contributing guide](CONTRIBUTING.md) for details.
 
 ## 📊 Stats
 
-![GitHub commits](https://img.shields.io/github/commits-since/ultra-skills/ultra-skills/v1.0.0?label=Contributions&color=667eea)
-![GitHub last commit](https://img.shields.io/github/last-commit/ultra-skills/ultra-skills?color=764ba2)
-![Repository size](https://img.shields.io/github/repo-size/ultra-skills/ultra-skills?color=f093fb)
+![GitHub commits](https://img.shields.io/github/commits-since/quvia-skills/quvia-skills/v1.0.0?label=Contributions&color=667eea)
+![GitHub last commit](https://img.shields.io/github/last-commit/quvia-skills/quvia-skills?color=764ba2)
+![Repository size](https://img.shields.io/github/repo-size/quvia-skills/quvia-skills?color=f093fb)
 
 ---
 
@@ -206,12 +206,12 @@ Each skill may have its own license. Check individual skill folders for license 
 
 ## ⭐ Star the Repository
 
-If you find Ultra Skills useful, please consider starring the repository to show your support!
+If you find Quvia Skills useful, please consider starring the repository to show your support!
 
 ---
 
 <p align="center">
-  <img src="assets/banner.svg" alt="Ultra Skills Banner" width="600" />
+  <img src="assets/banner.svg" alt="Quvia Skills Banner" width="600" />
 </p>
 
 <p align="center">

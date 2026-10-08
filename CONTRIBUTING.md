@@ -1,6 +1,6 @@
-# Contributing to Ultra Skills
+# Contributing to Quvia Skills
 
-Thank you for your interest in contributing to Ultra Skills! This repository contains 1000+ AI skills for coding assistants. Whether you're fixing a typo, adding a new skill, or improving existing ones, your contributions are welcome.
+Thank you for your interest in contributing to Quvia Skills! This repository contains 1000+ AI skills for coding assistants. Whether you're fixing a typo, adding a new skill, or improving existing ones, your contributions are welcome.
 
 ---
 
@@ -22,8 +22,8 @@ Thank you for your interest in contributing to Ultra Skills! This repository con
 2. **Clone** your fork locally:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/ultra-skills.git
-cd ultra-skills
+git clone https://github.com/YOUR-USERNAME/quvia-skills.git
+cd quvia-skills
 ```
 
 3. **Create a branch** for your feature:
@@ -159,7 +159,7 @@ npx markdown-link-check my-new-skill/SKILL.md
 
 1. Install skills locally:
 ```bash
-npx ultra-skills --skill my-skill-name
+npx quvia-skills --skill my-skill-name
 ```
 
 2. Open your AI assistant and invoke the skill:
@@ -199,10 +199,10 @@ npx ultra-skills --skill my-skill-name
 
 ### Reporting Issues
 
-If you encounter a bug, have a feature request, or need help, please [open an issue](https://github.com/ultra-skills/ultra-skills/issues).
+If you encounter a bug, have a feature request, or need help, please [open an issue](https://github.com/quvia-skills/quvia-skills/issues).
 
 ---
 
 ## License
 
-By contributing to Ultra Skills, you agree that your contributions will be licensed under the [MIT License](LICENSE).
+By contributing to Quvia Skills, you agree that your contributions will be licensed under the [MIT License](LICENSE).

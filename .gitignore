@@ -1,4 +1,4 @@
-# Ultra Skills - Git Ignore
+# Quvia Skills - Git Ignore
 # ========================
 
 # Node.js
@@ -141,6 +141,7 @@ sdist/
 
 # Go
 bin/
+!/bin/
 vendor/
 
 # Rust

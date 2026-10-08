@@ -1,5 +1,5 @@
 {
-  "name": "ultra-skills",
+  "name": "quvia-skills",
   "version": "1.0.0",
   "description": "1000+ specialized AI skills for Claude Code, Cursor, Aider, OpenCode, and other AI coding assistants",
   "keywords": [
@@ -16,15 +16,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ultra-skills/ultra-skills"
+    "url": "https://github.com/quvia-skills/quvia-skills"
   },
-  "homepage": "https://github.com/ultra-skills/ultra-skills#readme",
+  "homepage": "https://github.com/quvia-skills/quvia-skills#readme",
   "bugs": {
-    "url": "https://github.com/ultra-skills/ultra-skills/issues"
+    "url": "https://github.com/quvia-skills/quvia-skills/issues"
   },
   "license": "MIT",
   "bin": {
-    "ultra-skills": "bin/install.js"
+    "quvia-skills": "bin/install.js"
   },
   "main": "bin/install.js",
   "engines": {

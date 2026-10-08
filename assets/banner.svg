@@ -58,7 +58,7 @@
 
   <!-- Main title with glow -->
   <text x="600" y="120" text-anchor="middle" font-family="monospace" font-size="48" font-weight="bold" fill="white" filter="url(#glow)">
-    Ultra Skills
+    Quvia Skills
   </text>
 
   <!-- Subtitle -->
@@ -85,6 +85,6 @@
   <!-- Bottom tagline with fade in -->
   <text x="600" y="270" text-anchor="middle" font-family="sans-serif" font-size="16" fill="white" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze" begin="1.5s" />
-    npx ultra-skills
+    npx quvia-skills
   </text>
 </svg>
